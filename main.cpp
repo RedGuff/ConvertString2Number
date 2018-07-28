@@ -7,7 +7,7 @@ int main()
    string a1 = "3";
    int b1 = 1;
    b1 = atoi(a1.c_str()); // 0 if not a number.
-   if ((b1 == 0) && (a1 !="0"))
+   if ((b1 == 0) && (a1 !="0"))  // \r with lines from files.
    {
        cout << "Pas un nombre !" << endl;
    }
@@ -15,7 +15,7 @@ int main()
 
    string a2 = "TR";
    int b2 = atoi(a2.c_str()); // 0 if not a number.
-   if ((b2 == 0) && (a2 !="0"))
+   if ((b2 == 0) && (a2 !="0"))// \r with lines from files.
    {
        cout << "Pas un nombre !" << endl;
    }
